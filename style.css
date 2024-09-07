@@ -34,7 +34,6 @@
 .header-image img{
     width: 100%;
     height: calc(100vh - 80px);
-    background-attachment: fixed;
 }
 
 .section-images{
@@ -57,7 +56,6 @@
 }
 
 .footer{
-    border: 5px solid brown;
     background-color: black;
     height: 555px;
     width: 100%;
@@ -66,19 +64,23 @@
     gap: 25px;
     align-items: center;
 }
+ 
+.footer-section{
+    width: 1000px;
+}
 
 .footer-text{
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 .footer-image{
-    height: 100%;
-    width: auto;
-    max-height: 450px;
+    height: 450px;
+    width: 500px;
 }
 
 .footer-image img{
     height: 100%;
-    width: auto;
+    width: 100%;
 }
